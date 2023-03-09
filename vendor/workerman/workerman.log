@@ -1,0 +1,143 @@
+2023-03-07 10:46:18 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:47:06 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:47:30 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:49:02 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:49:35 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:53:48 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:54:10 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:54:42 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:55:04 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:55:43 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 10:56:47 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 11:00:07 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
+2023-03-07 12:52:17 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in C:\OSPanel\domains\test\vendor\workerman\workerman\Protocols\Websocket.php:243
+Stack trace:
+#0 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(329): Workerman\Protocols\Websocket::encode()
+#1 C:\OSPanel\domains\test\start.php(23): Workerman\Connection\TcpConnection->send()
+#2 C:\OSPanel\domains\test\vendor\workerman\workerman\Connection\TcpConnection.php(667): {closure}()
+#3 C:\OSPanel\domains\test\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead()
+#4 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1479): Workerman\Events\Select->loop()
+#5 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(1399): Workerman\Worker::forkWorkersForWindows()
+#6 C:\OSPanel\domains\test\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#7 C:\OSPanel\domains\test\start.php(52): Workerman\Worker::runAll()
+#8 {main}
